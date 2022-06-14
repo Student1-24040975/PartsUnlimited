@@ -7,7 +7,7 @@ namespace PartsUnlimited.Models
     {
         [Key]
         public int CartItemId { get; set; }
-
+//My second change
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
@@ -18,4 +18,4 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }
     }
-}
+}//My third change
